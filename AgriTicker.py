@@ -100,6 +100,3 @@ def get_etf_data():
 
 
     return df_etf_closing_prices
-
-
-
