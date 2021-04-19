@@ -34,16 +34,4 @@ jupyter notebook
 [Google Earth Engine Starter Notebook](gee_example.ipynb)
 
 
-# GEExtract Installation Instructions
-
-
-### 1) Make sure you have activated your GE environment. Run the code below.
-
-```shell
-pip install geextract
-```
-
-### 2) If you are having trouble, see the page below.
-
-[GEExtract Installation Instructions](http://www.loicdutrieux.net/landsat-extract-gee/install.html)
 
