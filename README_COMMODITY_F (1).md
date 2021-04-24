@@ -92,7 +92,7 @@ We complemented the data by using [**Kaggle data set**](https://www.kaggle.com/a
 for the corn and wheat prices as well as more data from the USDA  for the [**wheat  prices**](https://www.ers.usda.gov/data-products/wheat-data/) 
 
 
-![image](images/Data_sources.jpg)
+![image](images/Data_sources.png)
                                                                                                                                                    
 
 ## Our Approach
