@@ -19,7 +19,7 @@ Fintech Bootcamp Project 1
 	- [In Conclusion](#in-conclusion)
 	
 
-# Pre Requisites
+# Prerequisites
 
 ### Libraries Utilized:
 
