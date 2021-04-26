@@ -7,8 +7,8 @@ Fintech Bootcamp Project 1
 
 # Table of contents:
 
-- [Prerequisites](#pre-requisites)
-    - [How to set up the Google Earth Engine Map API](#how-to-set-up-the-google-earth-engine-map-api)
+- [Prerequisites](#prerequisites)
+    - [How to set up the Google Earth Engine API](#how-to-set-up-the-google-earth-engine-api)
 
 - [The Project ](#the-project)
 	- [Project Goals](#project-goals)
@@ -71,7 +71,7 @@ jupyter notebook
 
 
 
-# [The Project](GOOGLECROP.ipynb) 
+# The Project
 The agricultural crop landscape is dramatically changing in North America, in this project we are going to analyze specific agricultural crop data focused on Wheat, Soybean and Corn.
  We will be looking into yearly data of these commodities in specific regions of the United States, the states of focus are as follow;
  - North Dakota
@@ -86,7 +86,10 @@ The agricultural crop landscape is dramatically changing in North America, in th
 
 ## Project Goals
 
+
 The goals for this project is to see the correlation, if any between the commodities, the price of the commodites and their yield and the land area in which they are planted.
+
+##### *** The Earth Engine jupyter notebook can be accessed [here](GOOGLECROP.ipynb).
 
 ## Data
 
@@ -107,7 +110,7 @@ The study conducted will showcase the changes in crop land area for 3 agricultur
 
 #### 1) Setting up crop data to be visulized on the map.
 
-Using Google Earth Map, we were able to visualize the data priorly collected, we were able to apply differet keys for different crops to make the graphical presentation more clear.
+Using Google Earth Engine, we were able to visualize the data priorly collected, we were able to apply differet keys for different crops to make the graphical presentation more clear.
 
 The following image below shows how the map has changed over the period of time based on the data found.
 
@@ -115,17 +118,17 @@ The following image below shows how the map has changed over the period of time 
 
 #### 2) Gathering ETF Ticker data for CORN, SOYB and WHEAT.
 
-We had imported the dataset from Alpaca API to gather the ETF for Corn, SoyBean and Wheat from the last 10 years. 
+We imported the dataset from Alpaca API to gather the ETF for Corn, Soybean and Wheat from the last 10 years. 
 
 After the data was collected, we needed to resample the information (clean up data) as the pixel data from the map is only available on a yearly intervals.
 
 ![image](images/2_Google_PctChange.png)
 
-Our study shows Wheat yeilded the highest return among the produced crops in the current year, however Soy Bean used to yeild the best returns during 2012 to 2018. Since 2019 corn has been on a steady decline. 
+Our study shows Wheat yeilded the highest return among the produced crops in the current year, however soybean used to yeild the best returns during 2012 to 2018. Since 2019 corn has been on a steady decline. 
 
 #### 3) Gathering pixel data that represents crop land cover in the US.
 
-Our goal in this section was to retrieve visual data using Google Earth Engine of how much land is used to farm the 3 different crops (soy bean, wheat, corn) and breakdown the information into samples based on the years, crops, area used in the different states.
+Our goal in this section was to retrieve visual data using Google Earth Engine of how much land is used to farm the 3 different crops (soybean, wheat, corn) and breakdown the information into samples based on the years, crops, area used in the different states.
 
 
 ![image](images/3_Google_CropArea.png)
@@ -196,5 +199,5 @@ When comparing state by state we notice that wheat as a whole has historically e
 
 Giving the steady growth of the commodity price and the little diminish in it's cultivation area, we can asume that soybean would be the best option to allocate a higher portion of funds when adding the said commodity to a portfolio in a long term investment, corn being second and wheat third. 
 
-[ETFs as a portfolio](WEATCORNSOYB.ipynb).
+##### *** The ETF portfolio jupyter notebook can be accessed [here](WEATCORNSOYB.ipynb).
 
