@@ -1,9 +1,5 @@
 # Google Earth Engine Crop Area and ETF Time Series Analysis
 
-Fintech Bootcamp Project 1
-
- By Sinan, Jude, Carolina, Christopher and Mahtab
-
 
 # Table of contents:
 
